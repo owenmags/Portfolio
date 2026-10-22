@@ -1,0 +1,99 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Portfolio of Owen Robert Magsayo, an Information Technology student interested in systems analysis, web development, and cybersecurity.">
+  <title>Owen Robert Magsayo | IT Student and Developer</title>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Owen Robert Magsayo | IT Student and Developer">
+  <meta property="og:description" content="Systems analysis, web development, and cybersecurity projects. Open to internships.">
+  <meta property="og:image" content="https://YOUR-SITE-URL/owen-robert-magsayo.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230b1020'/%3E%3Ctext x='16' y='22' font-size='15' font-family='sans-serif' font-weight='700' text-anchor='middle' fill='%2381f0c4'%3EOM%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#about">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Owen Robert Magsayo home"><span class="brand-mark">OM</span><span>Owen Robert Magsayo</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#certifications">Certifications</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO INTERNSHIP OPPORTUNITIES</p>
+        <h1>Hello, I am<br>Owen Robert<br><span class="accent-text">Magsayo.</span></h1>
+        <p class="hero-intro">Fourth-year IT student focused on system analysis, web development, and cybersecurity. I turn project requirements into usable applications, clear system designs, and thoughtful data models.</p>
+        <p class="hero-school">BS Information Technology, 2023–2027 <span>·</span> University of San Jose–Recoletos</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="CV_Magsayo.pdf" target="_blank" rel="noreferrer">Open CV <span aria-hidden="true">↗</span></a>
+          <a class="button button-quiet" href="https://github.com/owenmags" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <a class="button button-quiet" href="#contact">Contact <span aria-hidden="true">↘</span></a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="portrait-frame"><img src="owen-robert-magsayo.jpg" alt="Portrait of Owen Robert Magsayo" width="2048" height="2048" fetchpriority="high"></div>
+        <div class="portrait-note"><span class="status-dot"></span> CEBU CITY, PHILIPPINES</div>
+        <span class="art-index">OWEN / 01</span>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-wrap about-section" id="about">
+      <div class="section-heading"><p class="eyebrow">01 — ABOUT</p><h2>Curious by nature.<br><span class="muted">Structured by design.</span></h2></div>
+      <div class="about-content"><p class="large-copy">I’m a fourth-year Information Technology student at the University of San Jose–Recoletos, School of Computer Studies, in Cebu City.</p><p>Across capstone, software engineering, and research projects, I have worked on full-stack features, database design, use case and class diagrams, system documentation, and QA testing. I’m seeking an internship where I can contribute to real projects and learn from experienced professionals.</p><div class="about-tags"><span>Systems analysis</span><span>Web development</span><span>Cybersecurity</span></div></div>
+    </section>
+
+    <section class="projects-section" id="projects"><div class="section-wrap">
+      <div class="section-heading heading-row"><div><p class="eyebrow">02 — SELECTED WORK</p><h2>Projects with<br><span class="muted">purpose.</span></h2></div><span class="section-count">01 — 05</span></div>
+      <div class="project-grid">
+        <article class="project-card project-featured"><div class="project-top"><span class="project-number">01</span><span class="project-category">CAPSTONE · IOT / COMPUTER VISION</span></div><button class="project-image-trigger" type="button"><img class="project-image" src="TapSakay Dashboard.png" alt="TapSakay passenger and seat monitoring dashboard" loading="lazy"></button><h3>TapSakay</h3><p class="project-summary">Jeepney demand signaling and automated seat monitoring. 1st Runner Up, SCS Days Hackathon 2026.</p><p class="project-description">Built the Angular and TypeScript frontend and Node.js and Express backend. Implemented MQTT messaging, fixed a demand-handler feedback loop, and designed route-level waiting passenger counts. Preparing YOLOv8 and OpenCV seat detection; revised passenger dashboard visibility based on panel feedback.</p><div class="tags"><span>Angular</span><span>TypeScript</span><span>Node.js</span><span>Express</span><span>MQTT</span><span>YOLOv8</span><span>OpenCV</span></div></article>
+        <article class="project-card"><div class="project-top"><span class="project-number">02</span><span class="project-category">SOFTWARE ENGINEERING · AI</span></div><button class="project-image-trigger" type="button"><img class="project-image" src="Soft Eng Project.jpg" alt="AI Powered Attendance System project screen" loading="lazy"></button><h3>AI Powered<br>Attendance System</h3><p class="project-description">Built Express API endpoints for registration, face recognition, and attendance logging. Produced use case and class diagrams, use case descriptions, and a layered client-server design. Uses face embeddings instead of storing raw images, plus role-based access, prepared statements, and session timeouts.</p><div class="tags"><span>Node.js</span><span>Express</span><span>MySQL</span><span>Privacy</span></div></article>
+        <article class="project-card"><div class="project-top"><span class="project-number">03</span><span class="project-category">WEB · GROUP PROJECT</span></div><button class="project-image-trigger" type="button"><img class="project-image" src="Food Ordering System Dashboard.png" alt="Simple Food Ordering System dashboard" loading="lazy"></button><h3>Simple Food<br>Ordering System</h3><p class="project-description">Developed a PHP REST API for accounts, menu browsing, carts, and orders. Added token authentication, admin role checks, input validation, and order status tracking; saved checkout prices to preserve past order totals.</p><div class="tags"><span>React</span><span>PHP</span><span>REST API</span><span>Authentication</span></div></article>
+        <article class="project-card"><div class="project-top"><span class="project-number">04</span><span class="project-category">RESEARCH · QA</span></div><button class="project-image-trigger" type="button"><img class="project-image" src="Research Project Dashboard.png" alt="Academic Deployment Decision Support dashboard" loading="lazy"></button><h3>Academic Deployment<br>Decision Support</h3><p class="project-description">Handled QA for a web tool comparing cloud and local deployment for academic information systems. Tested the five-step input flow and checked feasibility, risk, and cost outputs for errors.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>QA testing</span></div></article>
+        <article class="project-card"><div class="project-top"><span class="project-number">05</span><span class="project-category">IOT · COMPUTER VISION</span></div><button class="project-image-trigger" type="button"><img class="project-image" src="SENTRY Room Monitor Dashboard.jpg" alt="SENTRY Room Monitor dashboard" loading="lazy"></button><h3>SENTRY Room<br>Monitor</h3><p class="project-description">Built frontend pages for secure sign-in, dashboards, activity logs, and admin settings. Connected motion-event and statistics endpoints, implemented ID/password and face-recognition login screens, and added CSV schedule upload and administrator management.</p><div class="tags"><span>Express</span><span>Python</span><span>OpenCV</span><span>MySQL</span><span>Tailwind CSS</span></div></article>
+      </div>
+    </div></section>
+
+    <section class="section-wrap skills-section" id="skills"><div class="section-heading"><p class="eyebrow">03 — TOOLKIT</p><h2>Skills I bring<br><span class="muted">to the table.</span></h2></div>
+      <div class="skills-grid">
+        <article class="skill-group"><span class="skill-index">A / 01</span><h3>Web Development</h3><div class="skill-list"><span>Angular</span><span>React</span><span>Node.js</span><span>Express</span><span>Laravel</span><span>PHP</span><span>Python</span><span>TypeScript</span></div></article>
+        <article class="skill-group"><span class="skill-index">B / 02</span><h3>Systems Analysis<br>& Database</h3><div class="skill-list"><span>Use case diagrams</span><span>Class diagrams</span><span>Use case descriptions</span><span>Layered architecture</span><span>Database design</span><span>MySQL</span></div></article>
+        <article class="skill-group"><span class="skill-index">C / 03</span><h3>Cybersecurity</h3><div class="skill-list"><span>Kali Linux</span><span>Role-based access</span><span>Prepared statements</span><span>Token authentication</span><span>Session timeouts</span><span>Data Privacy Act of 2012</span><span>Privacy safeguards</span></div></article>
+        <article class="skill-group"><span class="skill-index">D / 04</span><h3>Languages & Tools</h3><div class="skill-list"><span>JavaScript</span><span>TypeScript</span><span>PHP</span><span>Python</span><span>Git</span><span>GitHub</span><span>Figma</span><span>Canva</span><span>Power BI</span></div></article>
+      </div>
+    </section>
+
+    <section class="achievement-band"><div class="section-wrap achievement-inner"><div><p class="eyebrow">04 — MILESTONES</p><h2>Learning by<br>building and doing.</h2></div><div class="achievement-items"><article><span class="achievement-symbol">✳</span><div><strong>1st Runner Up</strong><p>SCS Days Hackathon · School of Computer Studies, sponsored by Full Scale · 2026</p><img class="achievement-photo" src="1st Runner Up SCS Hackathon.jpg" alt="Owen and his team receiving the 1st Runner Up award at the SCS Days Hackathon" loading="lazy"></div></article><article><span class="achievement-symbol">⌘</span><div><strong>Certifications</strong><p>Google Cloud Platform · SQL Fundamentals · Introduction to Cybersecurity</p></div></article></div></div></section>
+
+    <section class="certifications-section" id="certifications"><div class="section-wrap">
+      <div class="section-heading heading-row"><div><p class="eyebrow">05 — CERTIFICATIONS</p><h2>Learning that<br><span class="muted">keeps building.</span></h2></div><span class="section-count">01 — 03</span></div>
+      <div class="certificate-grid">
+        <article class="certificate-card"><button class="certificate-image-trigger" type="button"><img class="certificate-image" src="Google Cloud.png" alt="Certificate of completion for Introduction to Google Cloud Platform" loading="lazy"></button><div class="certificate-copy"><h3>Introduction to Google Cloud Platform</h3><p>Simplilearn SkillUp · October 16, 2026</p></div></article>
+        <article class="certificate-card"><button class="certificate-image-trigger" type="button"><img class="certificate-image" src="Fundamentals of Database.png" alt="Certificate of completion for Fundamentals of Database: What is SQL?" loading="lazy"></button><div class="certificate-copy"><h3>Fundamentals of Database: What is SQL?</h3><p>Simplilearn SkillUp · October 20, 2026</p></div></article>
+        <article class="certificate-card"><button class="certificate-image-trigger" type="button"><img class="certificate-image" src="Cybersecurity.png" alt="Certificate of completion for Introduction to Cybersecurity" loading="lazy"></button><div class="certificate-copy"><h3>Introduction to Cybersecurity</h3><p>Cisco Networking Academy · October 22, 2026</p></div></article>
+      </div>
+    </div></section>
+    <section class="section-wrap contact-section" id="contact"><div class="contact-copy"><p class="eyebrow">06 — GET IN TOUCH</p><h2>Let’s build<br><span class="accent-text">what’s next.</span></h2><p>I’m seeking an internship where I can contribute to real projects and grow my skills in system analysis, web development, and cybersecurity.</p></div><div class="contact-details"><a class="contact-row" href="mailto:owenrobert.magsayo.23@usjr.edu.ph"><span class="contact-label">EMAIL</span><span class="contact-value">owenrobert.magsayo.23@usjr.edu.ph</span><span class="contact-arrow">↗</span></a><a class="contact-row" href="tel:+639957952409"><span class="contact-label">PHONE</span><span class="contact-value">0995-795-2409</span><span class="contact-arrow">↗</span></a><a class="contact-row" href="https://github.com/owenmags" target="_blank" rel="noreferrer"><span class="contact-label">GITHUB</span><span class="contact-value">github.com/owenmags</span><span class="contact-arrow">↗</span></a><div class="contact-location"><span class="status-dot"></span> Cebu City, Philippines</div></div></section>
+  </main>
+  <dialog class="image-viewer" aria-label="Full-size project image">
+    <button class="image-viewer-close" type="button" aria-label="Close image preview">Close <span aria-hidden="true">×</span></button>
+    <img class="image-viewer-photo" alt="">
+    <p class="image-viewer-caption"></p>
+  </dialog>  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">OM</span><span>Owen Robert Magsayo</span></a><span>Designed & built with intention.</span><a href="#home" class="back-top">BACK TO TOP ↑</a></footer>
+</body>
+</html>
+
+
+
+
+
